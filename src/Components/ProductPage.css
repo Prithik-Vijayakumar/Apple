@@ -133,3 +133,138 @@
     text-shadow: 0px 0px 3px;
 }
 }
+
+@media (min-width : 1025px) {
+    
+#lists {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
+#product-page {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#product-box {
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    border-color: black;
+    margin: 2%;
+    max-width: 45%;
+    box-shadow: 0px 0px 20px;
+    padding: 0%;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+#product-box:hover {
+    transform: scale(1.015);
+}
+
+#product-image {
+    width: 200px;
+    height: 200px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#product-name-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 3%;
+    text-align: left;
+    text-shadow: 0px 0px 3px;
+}
+
+#spec-detail {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    padding: 6%;
+    margin: 0;
+    padding-top: 0;
+    color: gray;
+}
+
+#add-to-cart {
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    padding: 2.5%;
+    margin-top: 4.6%;
+    margin-left: 6%;
+    float: left;
+    margin-bottom: 10%;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+#add-to-cart:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px;
+}
+
+#specifications {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#cart-image {
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+#certification-box {
+    display: block;
+}
+
+#logo-product {
+    width: 40px;
+    height: 45px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+#logo-product:hover {
+    transform: scale(1.05);
+}
+
+#header {
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+    text-shadow: 0px 0px 4px;
+}
+
+#price {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    margin: 0;
+    margin-left: 7%;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 0px 0px 3px;
+}
+}

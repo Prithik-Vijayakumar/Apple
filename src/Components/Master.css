@@ -189,3 +189,194 @@
     transform: scale(1.05);
 }
 }
+
+@media (min-width : 1025px) {
+
+#page-container {
+    text-align: center;
+}
+
+#title-logo,#title:hover {
+    transform: scale(1.015);
+}
+
+#product-gallery {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#title-box {
+    margin: 0;
+    padding: 170px 0 0 0;
+    text-align: center;
+}
+
+#title-box-internal {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 33%;
+}
+
+#title {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 120px;
+    text-shadow: 0px 0px 4px;
+    transition: 0.5s;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#title-logo {
+    width: 90px;
+    height: 100px;
+    transition: 0.5s;
+    padding: 0px 20px 0 0;
+}
+
+#para {
+    font-family: Helvetica, sans-serif;
+    color: grey;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    text-shadow: 0px 0px 5px;
+    font-weight: 600;
+}
+
+#btn-1 {
+    border-radius: 80px;
+    border-color: white;
+    border-width: 5px;
+    color: whitesmoke;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: bolder;
+    transition: 0.5s;
+    box-sizing: 0px 20px 50px;
+    text-shadow: 0px 0px 3px;
+}
+
+#btn-1:hover {
+    background-color: white;
+    color: rgb(59, 59, 59);
+    border-color: gray;
+    transform: scale(1.015);
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 0%;
+}
+
+#product-container {
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    border-color: black;
+    margin: 3%;
+    max-width: 43%;
+    box-shadow: 0px 0px 20px;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+#product-container:hover {
+    transform: scale(1.015);
+}
+
+#product {
+    width: 290px;
+    height: 155px;
+    padding-top: 60px;
+}
+
+#product-name {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    margin: 0;
+    padding-top: 45px;
+    padding-left: 12%;
+    padding-bottom: 3%;
+    text-align: left;
+    text-shadow: 0px 0px 3px;
+}
+
+#product-details {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 12%;
+    margin: 0;
+    padding-top: 0;
+    color: gray;
+}
+
+#to-buy {
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    padding: 2.6%;
+    margin: 5%;
+    margin-bottom: 10%;
+    margin-left: 12%;
+    float: left;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+#more {
+    border-radius: 50px;
+    background-color: black;
+    color: whitesmoke;
+    border-color: black ;
+    padding: 2.5%;
+    margin-top: 4.6%;
+    float: left;
+    margin-bottom: 10%;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+#more:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px;
+}
+
+#to-buy:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px;
+}
+
+#logo-gallery {
+    width: 40px;
+    height: 45px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+#logo-gallery:hover {
+    transform: scale(1.05);
+}
+
+}
