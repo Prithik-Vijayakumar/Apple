@@ -13,15 +13,16 @@ function FrontPage () {
         <>
         <div>
             <div id="page-container">
-                <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer" id="link">
                 <div id="title-box">
+                <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer" id="link">
                     <div id="title-box-internal">
                 <h1 id="title">
                 <img src={process.env.PUBLIC_URL + "/Images/AppleLogo.png"} id="title-logo"/>
                 Apple</h1>
                 </div>
-                </div>
                 </a>
+                </div>
+                
                 <p id="para">Catalogue Website</p>
                 <button id="btn-1" onClick={handleClick}>Go to Catalogue</button>
             </div>

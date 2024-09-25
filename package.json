@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://prithik-vijayakumar.github.io/Apple-Catalogue-Site",
+  "homepage": "https://prithik-vijayakumar.github.io/Apple",
   "eslintConfig": {
     "extends": [
       "react-app",
