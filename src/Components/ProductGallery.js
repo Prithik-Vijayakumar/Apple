@@ -18,12 +18,21 @@ function ProductGallery() {
     }
   };
 
+  const handleGoBack = () => {
+    navigate(-1)
+  };
+
   return (
     <>
-      <body id="product-gallery">
+      <div id="product-gallery">
+        <div id="bar-container">
+        <button id="go-back" onClick={handleGoBack}><p id="arrow">←</p>Go Back</button>
+        <div id="logo">
         <a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">
           <img id="logo-gallery" src={process.env.PUBLIC_URL + "/Images/AppleLogo.png"} alt="Apple Logo" />
         </a>
+        </div>
+        </div>
         <div id="gallery">
           {data.ProductList.map((product) => (
             <div id="product-container" key={product.src}>
@@ -37,7 +46,7 @@ function ProductGallery() {
             </div>
           ))}
         </div>
-      </body>
+      </div>
     </>
   );
 }

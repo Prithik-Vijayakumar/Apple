@@ -1,4 +1,9 @@
 @media (max-width : 600px) {
+
+html, body {
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+}
     
 #lists {
     display: flex;
@@ -10,7 +15,7 @@
 }
 
 #product-page {
-    background-color: whitesmoke;
+    background-color: rgb(231, 231, 231);
     height: 100%;
     width: 100%;
     text-align: center;
@@ -19,7 +24,7 @@
 #product-box {
     text-align: center;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     border-color: black;
     margin: 2%;
     max-width: 45%;
@@ -50,7 +55,7 @@
     padding-right: 6%;
     padding-bottom: 3%;
     text-align: left;
-    text-shadow: 0px 0px 3px;
+    text-shadow: 0px 0px 2px;
 }
 
 #spec-detail {
@@ -65,7 +70,7 @@
 
 #add-to-cart {
     border-radius: 50px;
-    background-color: whitesmoke;
+    background-color: rgb(231, 231, 231);
     color: black;
     border-color: black;
     padding: 2.5%;
@@ -120,7 +125,7 @@
     margin: 0;
     margin-top: 3%;
     padding: 0;
-    text-shadow: 0px 0px 4px;
+    text-shadow: 0px 0px 3px;
 }
 
 #price {
@@ -130,11 +135,129 @@
     margin-left: 7%;
     font-weight: bold;
     font-size: 15px;
-    text-shadow: 0px 0px 3px;
+    text-shadow: 0px 0px 2px;
 }
+
+#logo {
+    margin: 0 auto;
+    margin-right: 50%;
+    padding: 0px;
+    text-align: center;
+    max-width: 3%;
+    display: flex;
+}
+
+#bar-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#go-back {
+    float: left;
+    margin: 6.5% 0 0 5.8%;
+    color: black;
+    border-color: black;
+    background-color: rgb(231, 231, 231);
+    border-radius: 40px;
+    border-width: 2px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+    padding: 7px;
+    transition: 0.7s;
+    box-shadow: 0px 0px 4px;
+    display: flex;
+}
+
+#go-back:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 4px;
+}
+
+#arrow {
+    margin: 0;
+    margin-right: 4px;
+    padding-bottom: 10px;
+    padding: 0;
+}
+
+#error {
+    position: fixed;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 50%;
+    width: 50%;
+    background-color: rgba(231, 231, 231, 0.95);
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    left: 25.5%;
+    box-shadow: 0px 0px 10px;
+    transition: ease-in-out 0.5s;
+}
+
+#error-logo-container {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#error-logo-text {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#error-logo {
+    width: 27px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#error-message {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#error-message-text {
+    font-family: Helvetica, sans-serif;
+    color: gray;
+    margin: 3px;
+    font-size: 12px;
+}
+
+#error-button {
+    border-radius: 50px;
+    padding: 7px;
+    font-family: Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: bolder;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#error-button:hover {
+    transform: scale(1.015);
+    box-shadow: 0px 0px 5px;
+}
+
+#error-button-container {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
 }
 
 @media (min-width : 1025px) {
+
+html, body {
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+}    
     
 #lists {
     display: flex;
@@ -146,8 +269,8 @@
 }
 
 #product-page {
-    background-color: whitesmoke;
-    height: 100%;
+    background-color: rgb(231, 231, 231);
+    height: 100vh;
     width: 100%;
     text-align: center;
 }
@@ -155,7 +278,7 @@
 #product-box {
     text-align: center;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     border-color: black;
     margin: 2%;
     max-width: 45%;
@@ -201,7 +324,7 @@
 
 #add-to-cart {
     border-radius: 50px;
-    background-color: whitesmoke;
+    background-color: rgb(231, 231, 231);
     color: black;
     border-color: black;
     padding: 2.5%;
@@ -238,11 +361,11 @@
     display: block;
 }
 
-#logo-product {
+#logo-gallery {
     width: 40px;
     height: 45px;
-    padding-top: 30px;
     transition: 0.5s;
+    margin-top: 75%;
 }
 
 #logo-product:hover {
@@ -266,5 +389,118 @@
     font-weight: bold;
     font-size: 25px;
     text-shadow: 0px 0px 3px;
+}
+
+#logo {
+    margin: 0 auto;
+    margin-right: 48.45%;
+    padding: 0px;
+    text-align: center;
+    max-width: 3%;
+    display: flex;
+}
+
+#bar-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#go-back {
+    float: left;
+    margin: 2.7% 0 0 5.2%;
+    color: black;
+    border-color: black;
+    background-color: rgb(231, 231, 231);
+    border-radius: 40px;
+    border-width: 3px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 12px;
+    transition: 0.7s;
+    box-shadow: 0px 0px 4px;
+    display: flex;
+}
+
+#go-back:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 4px;
+}
+
+#arrow {
+    margin: 0;
+    margin-right: 8px;
+    padding-bottom: 10px;
+    padding: 0;
+    font-size: 13px;
+}
+
+#error {
+    position: fixed;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 50%;
+    width: 25%;
+    background-color: rgba(231, 231, 231, 0.95);
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    left: 37.5%;
+    box-shadow: 0px 0px 10px;
+    transition: ease-in-out 0.5s;
+}
+
+#error-logo-container {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#error-logo-text {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#error-logo {
+    width: 45px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#error-message {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#error-message-text {
+    font-family: Helvetica, sans-serif;
+    color: gray;
+    margin: 3px;
+    font-size: 15px;
+}
+
+#error-button {
+    border-radius: 50px;
+    padding: 12px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#error-button:hover {
+    transform: scale(1.015);
+    box-shadow: 0px 0px 5px;
+}
+
+#error-button-container {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 30px;
 }
 }
